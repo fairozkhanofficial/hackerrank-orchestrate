@@ -121,7 +121,6 @@ code/
   prompts/             vision/decision system + user templates
   utils/               cache, metrics, resume
   evaluation/          controlled experiment runner + report
-interview_prep/        interview preparation materials
 dataset/               claims, images, history, requirements
 ```
 

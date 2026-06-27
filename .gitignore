@@ -12,6 +12,9 @@ code/results/
 *.pyc
 .DS_Store
 
+# Personal prep - not for public
+interview_prep/
+
 # IDE / tooling
 CLAUDE.md
 AGENTS.md

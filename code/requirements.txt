@@ -1,0 +1,11 @@
+# Runtime dependencies.
+#
+# The pipeline core (config, schemas, ingest, deterministic layers) is pure
+# standard library. The packages below are used by later phases.
+
+# Gemini is called over its REST API with requests, so there is no SDK lock-in.
+requests>=2.31
+
+# Optional. Used to downscale large images before encoding. If Pillow is not
+# installed the imaging layer falls back to sending the original bytes.
+Pillow>=10.0
